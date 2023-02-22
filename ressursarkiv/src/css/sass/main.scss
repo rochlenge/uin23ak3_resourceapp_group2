@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+$grey: #7b7b7b;
+$aqua: #25dfe6;
+$backgroundbutton: #f6f2f2;
+
+div{
+    max-width: 1000px;
+    margin: auto; 
+}
+
+header {
+    border: 1px solid $grey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.tabcontent {
+    border: 1px solid $grey;
+    border-top: 5px solid $aqua;
+}
+
+//#buttonbox {
+//    margin-left: 0;
+//}
+
+button {
+	background-color: $aqua;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+    border: .1px solid $grey;
+	font-size:20px;
+	padding:14px 23px;
+    border-bottom: none;
+    margin-right: .5rem;
+}
+
+button:hover {
+	background-color: $backgroundbutton;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+button:focus {
+    background-color: $aqua;
+    border-bottom: 1px solid $aqua;
+}
