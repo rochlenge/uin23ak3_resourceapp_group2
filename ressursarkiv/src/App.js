@@ -7,7 +7,7 @@ function App() {
     <div className="App">
        <header id="title">RESSURSARKIV</header>
 
-<div class="tab">
+<div class="tab" id="buttonbox">
   <button class="tablinks" onclick="openTab(event, 'Tab1')">HTML</button>
   <button class="tablinks" onclick="openTab(event, 'Tab2')">CSS</button>
   <button class="tablinks" onclick="openTab(event, 'Tab3')">JavaScript</button>
@@ -19,9 +19,9 @@ function App() {
   <h2>Tab 1 header</h2>
   <p>Tab 1 text</p>
   <ul>
-    <li><a href="#"></a>Tab 1 Link 1</li>
-    <li><a href="#"></a>Tab 1 Link 2</li>
-    <li><a href="#"></a>Tab 1 Link 3</li>
+    <li><a href="#">Tab 1 Link 1</a></li>
+    <li><a href="#">Tab 1 Link 2</a></li>
+    <li><a href="#">Tab 1 Link 3</a></li>
   </ul>
 </div>
 
