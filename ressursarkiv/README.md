@@ -4,7 +4,7 @@
 
 Rochlenge: Christian De Rochlenge \
 tryggveh: Tryggve Hatteland \
-HippedFever: Mats Christensen \
+HippedFever: Mats Christensen
 
 
 
