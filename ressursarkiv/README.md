@@ -2,9 +2,9 @@
 
 ### Gruppen består av:
 
-Rochlenge: Christian De Rochlenge
-tryggveh: Tryggve Hatteland
-HippedFever: Mats Christensen
+Rochlenge: Christian De Rochlenge \
+tryggveh: Tryggve Hatteland \
+HippedFever: Mats Christensen \
 
 
 
