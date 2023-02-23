@@ -16,13 +16,34 @@ h2 {
   font-family: "Fredoka One", sans-serif;
 }
 
+p {
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  align-content: center;
+  padding-left: 0;
+}
+
 .tabcontent {
   border: 1px solid #7b7b7b;
   border-top: 5px solid #25dfe6;
 }
 
+#title {
+  font-family: "Fredoka One", sans-serif;
+  font-size: xx-large;
+}
+
+#buttonbox {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
 button {
-  background-color: #25dfe6;
+  background-color: #f6f2f2;
   display: inline-block;
   cursor: pointer;
   color: #000000;

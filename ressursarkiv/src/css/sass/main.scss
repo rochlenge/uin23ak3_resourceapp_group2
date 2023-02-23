@@ -21,17 +21,34 @@ h2{
     font-family: 'Fredoka One', sans-serif;
 }
 
+p{
+    font-size: large;
+}
+
+ul{
+    list-style-type: none;
+    align-content: center;
+    padding-left: 0;
+}
+
 .tabcontent {
     border: 1px solid $grey;
     border-top: 5px solid $aqua;
 }
 
-//#buttonbox {
-//    margin-left: 0;
-//}
+#title{
+    font-family: 'Fredoka One', sans-serif;
+    font-size: xx-large;
+}
+
+#buttonbox {
+    display: flex;
+    position:relative ;
+    width: 100%;
+}
 
 button {
-	background-color: $aqua;
+	background-color: $backgroundbutton;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
