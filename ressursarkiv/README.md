@@ -1,3 +1,14 @@
+# UIN Gruppe 2
+
+### Gruppen består av:
+
+Rochlenge: Christian De Rochlenge \
+tryggveh: Tryggve Hatteland \
+HippedFever: Mats Christensen
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
