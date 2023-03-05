@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import './css/sass/main.scss';
+import ResourceArticles from './components/ResourceArticles.js'
+import {resources} from './components/ressurser';
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
 
 <div id="Tab1" class="tabcontent">
   <h2>Tab 1 header</h2>
-  <p>Tab 1 text</p>
   <ul>
     <li><a href="#">Tab 1 Link 1</a></li>
     <li><a href="#">Tab 1 Link 2</a></li>
@@ -25,48 +25,9 @@ function App() {
   </ul>
 </div>
 
-<div id="Tab2" class="tabcontent">
-  <h2>Tab 2 Header</h2>
-  <p>Tab 2 text</p>
-  <ul>
-    <li><a href="#">Tab 2 Link 1</a></li>
-    <li><a href="#">Tab 2 Link 2</a></li>
-    <li><a href="#">Tab 2 Link 3</a></li>
-    <li><a href="#">Tab 2 Link 4</a></li>
-  </ul>
-</div>
 
-<div id="Tab3" class="tabcontent">
-  <h2>Tab 3 Header</h2>
-  <p>Tab 3 text.</p>
-  <ul>
-    <li><a href="#">Tab 3 Link 1</a></li>
-    <li><a href="#">Tab 3 Link 2</a></li>
-    <li><a href="#">Tab 3 Link 3</a></li>
-  </ul>
-</div>
+<ResourceArticles resources={resources} />;
 
-<div id="Tab4" class="tabcontent">
-  <h2>Tab 4 Header</h2>
-  <p>Tab 4 text.</p>
-  <ul>
-    <li><a href="#">Tab 4 Link 1</a></li>
-    <li><a href="#">Tab 4 Link 2</a></li>
-    <li><a href="#">Tab 4 Link 3</a></li>
-  </ul>
-</div>
-
-<div id="Tab5" class="tabcontent">
-  <h2>Tab 5 Header</h2>
-  <p>Tab 5 text.</p>
-  <ul>
-    <li><a href="#">Tab 5 Link 1</a></li>
-    <li><a href="#">Tab 5 Link 2</a></li>
-    <li><a href="#">Tab 5 Link 3</a></li>
-  </ul>
-</div>
-
-<script src="ressurser.js"></script>
     </div>
   );
 }

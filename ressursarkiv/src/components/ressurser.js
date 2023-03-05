@@ -75,3 +75,7 @@ const resources = [
         category: "headless-cms"
     }
 ]
+
+
+
+export { resources };
