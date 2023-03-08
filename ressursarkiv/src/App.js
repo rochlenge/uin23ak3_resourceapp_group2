@@ -1,6 +1,6 @@
 import './App.css';
 import './css/sass/main.scss';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './index.css';
 import Hjem from "./pages/Hjem"
 import Css from "./pages/Css";
