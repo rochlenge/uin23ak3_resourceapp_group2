@@ -1,9 +1,9 @@
 import ResourceArticles from "../components/ResourceArticles";
 import { resources } from "../components/ressurser";
 
-const sanity = () => {
-    return <ResourceArticles resources={resources} />
-  };
+const sanity = () => (
+  <ResourceArticles resources={resources.filter(resource => resource.category === "headless-cms")} />
+  );
   
  
   

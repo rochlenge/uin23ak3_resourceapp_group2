@@ -1,10 +1,10 @@
 import ResourceArticles from "../components/ResourceArticles";
 import { resources } from "../components/ressurser";
 
-const JavaScript = () => {
-    return <ResourceArticles resources={resources} />
-  };
+const javascript = () => (
+  <ResourceArticles resources={resources.filter(resource => resource.category === "javascript")} />
+);
   
  
   
-  export default JavaScript;
+  export default javascript;
