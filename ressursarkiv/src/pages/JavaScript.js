@@ -1,5 +1,10 @@
+import ResourceArticles from "../components/ResourceArticles";
+import { resources } from "../components/ressurser";
+
 const JavaScript = () => {
-    return <h1>JavaScript</h1>;
+    return <ResourceArticles resources={resources} />
   };
+  
+ 
   
   export default JavaScript;

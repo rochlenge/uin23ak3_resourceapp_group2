@@ -1,5 +1,10 @@
-const Sanity = () => {
-    return <h1>Sanity</h1>;
+import ResourceArticles from "../components/ResourceArticles";
+import { resources } from "../components/ressurser";
+
+const sanity = () => {
+    return <ResourceArticles resources={resources} />
   };
   
-  export default Sanity;
+ 
+  
+  export default sanity;

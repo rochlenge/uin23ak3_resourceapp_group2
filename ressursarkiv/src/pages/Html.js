@@ -1,5 +1,10 @@
-const HTML = () => {
-    return <h1>HTML</h1>;
+import ResourceArticles from "../components/ResourceArticles";
+import { resources } from "../components/ressurser";
+
+const html = () => {
+    return <ResourceArticles resources={resources} />
   };
   
-  export default HTML;
+ 
+  
+  export default html;

@@ -1,25 +1,17 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CSS from "./pages/Css";
-import HTML from "./pages/Html";
-import JavaScript from "./pages/JavaScript";
-import React from "./pages/React";
-import Sanity from "./pages/Sanity";
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<CSS />}>
-          <Route index element={<HTML />} />
-          <Route path="JavaScript" element={<JavaScript />} />
-          <Route path="React" element={<React />} />
-          <Route path="Sanity" element={<Sanity />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
