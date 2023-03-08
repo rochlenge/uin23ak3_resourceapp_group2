@@ -1,8 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
 
-const Css = () => {
+const css = () => {
   return (
     <>
+    <header>
+        <h1>VÆLKØMMEN</h1>
+    </header>
       <nav>
         <ul>
           <li>
@@ -28,4 +31,4 @@ const Css = () => {
   )
 };
 
-export default Css;
+export default css;
