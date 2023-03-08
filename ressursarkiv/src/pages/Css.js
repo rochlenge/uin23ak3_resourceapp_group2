@@ -6,13 +6,19 @@ const Css = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Css</Link>
+            <Link to="/">CSS</Link>
           </li>
           <li>
-            <Link to="/blogs">Blogs</Link>
+            <Link to="/html">HTML</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/JavaScript">JavaScript</Link>
+          </li>
+          <li>
+            <Link to="/React">React</Link>
+          </li>
+          <li>
+            <Link to="/Sanity">Sanity</Link>
           </li>
         </ul>
       </nav>

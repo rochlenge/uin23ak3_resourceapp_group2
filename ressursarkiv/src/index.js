@@ -12,9 +12,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<CSS />}>
           <Route index element={<HTML />} />
-          <Route path="blogs" element={<JavaScript />} />
-          <Route path="contact" element={<React />} />
-          <Route path="*" element={<Sanity />} />
+          <Route path="JavaScript" element={<JavaScript />} />
+          <Route path="React" element={<React />} />
+          <Route path="Sanity" element={<Sanity />} />
         </Route>
       </Routes>
     </BrowserRouter>
