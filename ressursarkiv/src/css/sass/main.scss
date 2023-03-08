@@ -13,6 +13,7 @@ header {
     margin-bottom: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 1rem;
 }
 
 h2{
@@ -32,6 +33,7 @@ ul{
 .tabcontent {
     border: 1px solid $grey;
     border-top: 5px solid $aqua;
+    padding-left: 1rem;
 }
 
 #title{
@@ -43,6 +45,7 @@ ul{
     display: flex;
     position:relative ;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .button {
