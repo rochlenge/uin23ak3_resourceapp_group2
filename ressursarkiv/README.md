@@ -7,6 +7,12 @@ tryggveh: Tryggve Hatteland \
 HippedFever: Mats Christensen
 
 
+### Kilder:
+https://reactrouter.com/en/main/components/nav-link  \
+https://www.w3schools.com/react/
+ 
+
+
 
 
 # Getting Started with Create React App
